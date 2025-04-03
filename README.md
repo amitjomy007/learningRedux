@@ -1,3 +1,23 @@
+This is my attempt at learning Redux.
+
+This has implemented
+-> a counter increment and decremetn using redux
+-> login status checker using redux
+
+You can refer this code in future to quickly setup the stufff.
+
+📂The folder structure is as follow
+
+✅in the src folder -> you have store.js
+
+✅in the src/app -> you have page.js which has an app component. The app component is enclosed inside Provider tag
+
+✅in the src/app -> you also have two folders reducers and actions
+
+✅in the src/app/reducers -> you have counter.js isLogged.js index.js , here index.js is used to create a combined reducer for counter and isLogged
+
+✅in the src/app/actions -> you have index.js thiss one has all the 4 actiosn (increment and decrement for counter) and (login and logout for loginState)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
